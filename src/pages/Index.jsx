@@ -46,7 +46,7 @@ export default function Index(props) {
             <img src={car.image} alt={car.make} />
             <h3>{car.model}</h3>
             <h4>price = {car.price}</h4>
-            <h5>{car.contact}</h5>
+            <h5>contact = {car.contact}</h5>
         </div>  
    ))}
    </ContainerStyle>

@@ -23,9 +23,8 @@ export default function Header(props) {
     return (
         <NavStyle>
         <nav className="header">
-            <Link style={{color: 'black', hover: 'green'}} to="/">
                 <div> Sell Your Cars!! </div>
-            </Link> <br/>
+             <br/>
            <Link to='/'>
             <div> Back to Main Page</div>
            </Link>

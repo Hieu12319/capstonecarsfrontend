@@ -37,7 +37,7 @@ export default function Show(props) {
             <h2>{car.model}</h2>
             <h3>year = {car.year}</h3>
             <h4>price = {car.price}</h4>
-            <h5>{car.contact}</h5>
+            <h5>contact = {car.contact}</h5>
             <p>Description: {car.description}</p> <br/>
             <img src={car.image} 
             alt={car.make} 

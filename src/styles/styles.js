@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const FormStyle = styled.form`
 font-size: 10px;
-font-family: Merriweather;git 
+font-family: Merriweather;
 align-items: center;
 padding: 100px;
 margin: 100px auto;
@@ -11,6 +11,7 @@ width: 450px;
 height: 200px;
 background-size: contain;
 justify-content: center;
+margin-bottom: 0px;
 &:hover,
 &:focus{
    color: blue;
@@ -68,19 +69,19 @@ border-radius: 3px;
 `
 
 export const InputStyle = styled.input`
-font-size: 
+font-size: 4em;
 
 `
 
 export const ShowStyle = styled.div`
 color: #FFFFFF;
 background: black;
-width: 500px;
+width: 400px;
 text-align: center;
 margin: 1em auto;
 padding: 100px;
 font-size: 1.5em;
-
-
+font: Merriweather;
+height: 600px;
 
 `
